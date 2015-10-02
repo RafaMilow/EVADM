@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/min/extra.min.css">
 
     <!-- JS -->
-    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="bower_components/modernizr/bin/modernizr.js"></script>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="bower_components/dragula.js/dist/dragula.js"></script>
