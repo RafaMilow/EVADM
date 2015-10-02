@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<title>Template</title>
+
+	<!-- Meta Tags -->
+    <meta name="viewport" content="width=device-width" />
+
+	<!-- CSS -->
+    <link rel="stylesheet" href="bower_components/dragula.js/dist/dragula.min.css">
+    <link rel="stylesheet" href="css/min/evnts.min.css">
+
+    <!-- JS -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/dragula.js/dist/dragula.js"></script>
+
+</head>
+<body>
+
+<form action="form.php" method="post">
+
+<div class="row">
+    <div class="small-11 small-centered columns">
+        
+        <div id='lst-hoteis' class='container'>
+            <div class="panel">Teste 1<input type="hidden" name="hotel[]" value="Teste 1"></div>
+            <div class="panel">Teste 2<input type="hidden" name="hotel[]" value="Teste 2"></div>
+            <div class="panel">Teste 3<input type="hidden" name="hotel[]" value="Teste 3"></div>
+            <div class="panel">Teste 4<input type="hidden" name="hotel[]" value="Teste 4"></div>
+        </div>
+
+    </div>
+</div>
+
+<div class="row">
+    <input type="submit" value="vai!" class="button">
+     <input type="hidden" name="idioma" value="pt-BR" />
+</div>
+
+</form>
+
+<script type="text/javascript">
+
+var single2 = $('#lst-hoteis')[0];
+
+dragula({ containers: [single2] });
+
+</script>
+
+</body>
+</html>

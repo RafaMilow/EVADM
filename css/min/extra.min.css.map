@@ -1,0 +1,1 @@
+{"version":3,"sources":["extra.css"],"names":[],"mappings":"AAAI,MACI,MAAO,KACP,YAAa,KACb,aAAc,KACd,UAAW","file":"extra.min.css","sourcesContent":["    .full {\n        width: 100%;\n        margin-left: auto;\n        margin-right: auto;\n        max-width: initial;\n    }"],"sourceRoot":"/source/"}

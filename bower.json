@@ -1,0 +1,15 @@
+{
+  "name": "Evnts Admin",
+  "version": "1.0.0",
+  "authors": [
+    "Rafael Santos de Sá <milowudi@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dragula.js": "~2.1.1",
+    "jquery": "~2.1.4",
+    "foundation": "~5.5.2",
+    "jquery-file-upload": "~9.10.5",
+    "handlebars.js": "~3.0.3"
+  }
+}
